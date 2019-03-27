@@ -205,6 +205,9 @@ if [ "$(file_getprop anykernel.sh do.modules)" == 1 ]; then
     fi;
   done;
   cd /tmp/anykernel;
+  ui_print "Pushing modified fstab with f2fs support...";
+  cp patch/fstab /system/vendor/etc/fstab.qcom;
+  chmod 0644 /system/vendor/etc/fstab.qcom;
   $bb mount -o ro,remount -t auto /system;
   $bb mount -o ro,remount -t auto /vendor 2>/dev/null;
 fi;
