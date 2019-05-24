@@ -2,7 +2,7 @@ NAME ?= Genom
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := AOSP-tulip-pie
+CODE := AOSP-tulip-Pie
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 
