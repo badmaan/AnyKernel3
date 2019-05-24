@@ -1,8 +1,8 @@
-NAME ?= GenomKernel
+NAME ?= Genom
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := MIUI-tulip-pie-f2fs
+CODE := MIUI-tulip-Pie-F2FS
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 
