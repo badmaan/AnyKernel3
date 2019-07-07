@@ -4,12 +4,12 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Genom Kernel MIUI by rama982 @ telegram
-do.devicecheck=1
-do.modules=1
+kernel.string=Kernel AOSP by rama982 @ telegram
+do.devicecheck=0
+do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=lavender
+device.name1=ysl
 device.name2=
 device.name3=
 device.name4=

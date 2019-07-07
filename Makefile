@@ -1,8 +1,8 @@
-NAME ?= Genom
+NAME ?= Kernel
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := MIUI-Pie-F2FS-lavender
+CODE := AOSP-Pie-ysl-64bit
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 
