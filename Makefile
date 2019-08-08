@@ -2,7 +2,7 @@ NAME ?= Genom
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := MIUI-Pie-F2FS-lavender
+CODE := Stock-Pie-lavender
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 
