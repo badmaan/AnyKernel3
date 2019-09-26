@@ -1,17 +1,12 @@
 BRANCH := $(shell git -C .. rev-parse --abbrev-ref HEAD)
-CONFIG := $(shell cat ../out/.config | grep MIUI)
 
 ifeq ($(findstring 10,$(BRANCH)),10)
-    NAME ?= Genom-Kernel-AOSP-10-Q-lavender
+    NAME ?= Genom-Kernel-AOSP-10-Q-ONC
     DATE := $(shell date "+%Y%m%d-%H%M")
     ZIP := $(NAME)-$(DATE).zip
 else
-    ifdef CONFIG
-        ROM ?= MIUI
-    else
-        ROM ?= AOSP
-    endif
-    NAME ?= Genom-Kernel-$(ROM)-9-Pie-lavender
+    ROM ?= MIUI
+    NAME ?= Genom-Kernel-$(ROM)-9-Pie-ONC
     DATE := $(shell date "+%Y%m%d-%H%M")
     ZIP := $(NAME)-$(DATE).zip
 endif
