@@ -4,13 +4,13 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Genom Kernel by rama982 @ telegram
+kernel.string=Kang Kernel by isameturkmen, kanged from rama982 @ telegram
 do.devicecheck=1
 do.modules=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=ginkgo
-device.name2=
+device.name2=willow
 device.name3=
 device.name4=
 device.name5=
